@@ -51,7 +51,7 @@ For details --see code.
 
 Usage
 ------
-create etalon .wav file (script will recognize the sounds of this file and to do the action (run firefox) ) 
+create etalon .wav file (script will recognize the sounds of this file and do the action (run firefox) ) 
 
 	python cts.py etalon
 
