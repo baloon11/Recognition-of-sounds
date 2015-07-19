@@ -71,10 +71,10 @@ python 2.7
 
 	sudo apt-get install python-alsaaudio
 
-	pip install alsaaudio 
-	pip install numpy
-	pip install scipy
-	pip install matplotlib 
+	pip install pyalsaaudio==0.8.2
+	pip install numpy==1.9.2
+	pip install scipy==0.15.1
+	pip install matplotlib==1.4.3
 
 ---------------------------------------------------
 The script is based on ideas and parts of the code from this article:
