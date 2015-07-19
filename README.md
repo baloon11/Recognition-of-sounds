@@ -11,19 +11,22 @@ This script is based on the creation of sound fingerprint for
 etalon .wav file.
 
 
-(Etalon file is divided into parts
-Then in each part we are looking for frequency
-which corresponds to the max amplitude of sound.
+(Etalon file is divided into parts.
 
+Then in each part we are looking for frequency
+which corresponds to the max amplitude of sound.)
 
 We get a list of frequencies
+
 (It will be store in the file: frequency_list_etalon )
 
 when we run 
+
 	python cts.py standart 
 
 
 We run endless loop.
+
 Each iteration of this loop does:
 
 - create a sort .wav file (0.5 sec),
@@ -40,8 +43,7 @@ So we get a list of which is constantly supplemented.
 
 Then we compare etalon frequency list and general frequencies list.
 
-When a match occurs lists (80%)
-- Runs a command (run firefox)
+When a match occurs lists (80%) - run a command (run firefox)
 
 For details --see code.
 
@@ -52,13 +54,13 @@ Usage
 create etalon .wav file (script will recognize the sounds of this file and run) 
 
 	python cts.py etalon
-	
+
 
 Run script
 
 	python cts.py standart
 
-When the script is running,it waiting for the etalon sounds
+When the script is running, it waiting for the etalon sounds
 to do the action (run firefox)
 
 
@@ -76,7 +78,9 @@ python 2.7
 
 ---------------------------------------------------
 The script is based on ideas and parts of the code from this article:
+
 	http://habrahabr.ru/post/252937/
 
 A short video how this script works:
+
 	https://www.youtube.com/watch?v=hi8_oyXEssY&feature=youtu.be
