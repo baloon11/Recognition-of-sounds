@@ -20,7 +20,7 @@ We get a list of frequencies
 
 (It will be store in the file: frequency_list_etalon )
 
-when we run 
+When we run 
 
 	python cts.py standart 
 
@@ -29,11 +29,11 @@ We run endless loop.
 
 Each iteration of this loop does:
 
-- create a sort .wav file (0.5 sec),
+- create a short .wav file (0.5 sec),
 - make sound fingerprint of this short file,
-- make list of frequencies for it
-- save this data in in the general list
-- delete this short file
+- make list of frequencies for it,
+- save this data in in the general list,
+- delete this short file.
 
 
 (This loop is used for continuous listening microphone
@@ -79,8 +79,8 @@ python 2.7
 ---------------------------------------------------
 The script is based on ideas and parts of the code from this article:
 
-	http://habrahabr.ru/post/252937/
+http://habrahabr.ru/post/252937/
 
-A short video how this script works:
+A short video, how this script works:
 
-	https://www.youtube.com/watch?v=hi8_oyXEssY&feature=youtu.be
+https://www.youtube.com/watch?v=hi8_oyXEssY&feature=youtu.be
